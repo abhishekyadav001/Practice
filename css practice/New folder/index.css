@@ -2,3 +2,9 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+#navb-cart {
+  display: none;
+  height: 200px;
+  background-color: blueviolet;
+}
