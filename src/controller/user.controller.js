@@ -30,7 +30,7 @@ const getAllUsers = async (req, res) => {
 // for posting user data in our database from rest API
 const addUsers = async (req, res) => {
   try {
-    const data = req.body;
+    const { data } = req.body;
 
     // Checking if data exists
     if (!data) {
