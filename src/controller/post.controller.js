@@ -48,7 +48,7 @@ const getdbPostData = async (req, res) => {
 };
 
 const postData = async (req, res) => {
-  const posts = req.body;
+  const { posts } = req.body;
 
   try {
     const { userId } = posts[0];
