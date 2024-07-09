@@ -32,5 +32,28 @@
 ### Dynamically Typed Language.
 
 - The compiler doesn't know about the type of varaible at time of code execuation.
-- In that variable we can assign any type of value. 
+- In that variable we can assign any type of value while declaring. 
+- let x =10;
+- x = 'abhishek'
+- so here we can continuesly change the type of variables.
+- x-10 when we do that at that time we get an syntax error 
+- JS,python,ruby,etc.
+
+### Statically Typed Language.
+
+- The compiler know the type of variable at time of code execuation.
+- Here while declaring we need to give type of value which will we gonna asign it to that varaible.
+- int x; 
+- this is how we declare variable in typed language.
+- this typed language is faster than typed language.
+- C,C++,Java,TypeScript, etc.
+
+
+## TypeScript
+
+- TypeScript is static Typed language.
+- Typescript --> transpile - `tsc` --> JS.
+- Superset of JS.
+- let x:string = 'Masai'
+- let y:number =234
 - 
