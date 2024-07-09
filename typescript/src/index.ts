@@ -68,3 +68,19 @@ enum books {
 
 // this how we declare enum and can access variables
 
+// others
+let a:undefined;
+let u:null; 
+let s:any; // dont use this because its make code little bit complicated;
+
+//  FUNCTIONS
+
+function sum(a:number=0,b:number){
+    return a+b
+}
+console.log(sum(1,2));
+//console.log(sum(1,'2')); // its not addable
+function concat(a,b):void{
+    return a+b;
+}
+
