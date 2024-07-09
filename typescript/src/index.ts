@@ -26,20 +26,20 @@ let genericsmultipleArr:Array<number>=[];
 // interface and types -> ways to create blueprints for our objects
 // Primitve types in typescript --> number, string, boolean, null, undefined, symbol and big-int.
 
-type company ={
+type students ={
     name:string,
     age:number,
     gender:boolean,
     college?:string,
 }
 //  when we use `?` it means its not required to fill that value while creating any object;
-let obj:company={
+let obj:students={
     name:'abhisek',
     age:1,
     gender:true,
 }
 
-let objofarr:company[]=[{name:'abhishek',age:10,gender:false},{name:'himanshu', age:20,gender:true,college:'vvv'}]
+let objofarr:students[]=[{name:'abhishek',age:10,gender:false},{name:'himanshu', age:20,gender:true,college:'vvv'}]
 
 // Tuples
 // The types of intial element values in the tuples are fixed 
@@ -82,5 +82,21 @@ console.log(sum(1,2));
 //console.log(sum(1,'2')); // its not addable
 function concat(a,b):void{
     return a+b;
+}
+
+// Union ,Set theory
+//  Either ,Or
+interface company{
+post:string,
+salery?:number
+}
+
+let arr1:[string | boolean]=['s'];
+
+let masaiStudents:students & company ={
+    name:'abhishek',
+    age:1,
+    gender:true,
+    post:'soft',
 }
 
