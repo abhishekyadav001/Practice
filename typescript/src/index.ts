@@ -14,6 +14,7 @@ let familyMember:number =5;
 
 let arr:number[]=[1,2,3];
 // arr.push('hi') type error
+
 let stringArr:string[]=['a','b','2'];
 // stringArr.push(2); type eror
 let genericsArr:Array<number>=[2,2,3];
@@ -91,7 +92,7 @@ post:string,
 salery?:number
 }
 
-let arr1:[string | boolean]=['s'];
+let arr1:[string | boolean]=[true];
 
 let masaiStudents:students & company ={
     name:'abhishek',
