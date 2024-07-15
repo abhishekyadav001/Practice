@@ -10,6 +10,7 @@ function App() {
   const handleClick =(value:number)=>{
       setCount(count+value);
   }
+  const hello="hello";
   return (
     <div className="App">
     <Header counterTitle={'CounterApp'}/>
