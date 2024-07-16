@@ -1,9 +1,9 @@
 import React from 'react';
-interface HeaderParams{
-    counterTitle?:number|string,
-    children?:JSX.Element,
+interface HeaderParams {
+    counterTitle?: number | string,
+    children?: JSX.Element | JSX.Element[],
 }
-function Header({counterTitle}:HeaderParams) {
+function Header({ counterTitle }: HeaderParams) {
     return (
         <>
             <h1>{counterTitle}</h1>

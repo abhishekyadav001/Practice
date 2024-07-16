@@ -1,11 +1,11 @@
 import React from 'react';
 
-interface ButtonsProps{
-    name:string,
-    counter:()=>void
+interface ButtonsProps {
+    name: string,
+    counter: (title: String) => void
 }
-function Buttons(props:ButtonsProps) {
-    let {name,counter}=props;
+function Buttons(props: ButtonsProps) {
+    let { name, counter } = props;
     return (
         <div>
             <button onClick={counter}>{name}</button>
