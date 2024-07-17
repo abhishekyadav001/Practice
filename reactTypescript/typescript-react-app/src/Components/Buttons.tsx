@@ -7,7 +7,7 @@ interface ButtonsProps {
 function Buttons(props: ButtonsProps) {
     let { name, counter } = props;
     return (
-        <div>
+        <div className='button-comp'>
             <button onClick={counter}>{name}</button>
         </div>
     );

@@ -6,7 +6,7 @@ interface HeaderParams {
 function Header({ counterTitle }: HeaderParams) {
     return (
         <>
-            <h1>{counterTitle}</h1>
+            <h1 className='headerName'>{counterTitle}</h1>
         </>
     );
 }

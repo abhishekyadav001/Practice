@@ -16,8 +16,8 @@ function TodoInput({ handleclick }: TodoInputProps) {
         }
     }
     return (
-        <div>
-            <input type="text" value={currentTodo} onChange={inputchangeHandler} />
+        <div className='todo-input'>
+            <input className='input' type="text" value={currentTodo} onChange={inputchangeHandler} />
             <Buttons name="add" counter={clickHandler} />
         </div>
     );

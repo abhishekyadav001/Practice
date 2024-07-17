@@ -35,7 +35,7 @@ function Todos() {
         getTodos();
     }, [todos]);
     return (
-        <div>
+        <div className='main-todo-app'>
             <Header counterTitle={'Hi This is todo app'} />
             <TodoInput handleclick={handleAddTodos} />
             {
