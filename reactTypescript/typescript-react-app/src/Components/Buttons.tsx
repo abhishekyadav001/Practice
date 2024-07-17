@@ -2,7 +2,7 @@ import React from 'react';
 
 interface ButtonsProps {
     name: string,
-    counter: (title: String) => void
+    counter: () => void
 }
 function Buttons(props: ButtonsProps) {
     let { name, counter } = props;
