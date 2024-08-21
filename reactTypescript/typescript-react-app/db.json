@@ -1,0 +1,49 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "learn typescript",
+      "status": false
+    },
+    {
+      "id": 2,
+      "title": "hello",
+      "status": false
+    },
+    {
+      "id": 3,
+      "title": "hello",
+      "status": false
+    },
+    {
+      "id": 4,
+      "title": "aji",
+      "status": false
+    },
+    {
+      "id": 5,
+      "title": "i am ",
+      "status": false
+    },
+    {
+      "id": 6,
+      "title": "i ",
+      "status": false
+    },
+    {
+      "id": 7,
+      "title": "i love food",
+      "status": false
+    },
+    {
+      "id": 8,
+      "title": "aji ",
+      "status": false
+    },
+    {
+      "id": 9,
+      "title": "abhisehk",
+      "status": false
+    }
+  ]
+}
