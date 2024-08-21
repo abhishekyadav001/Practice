@@ -1,0 +1,1 @@
+# pdf-generator initgit add README.mdgit commit -m first commitgit branch -M maingit remote add origin https://github.com/abhishekyadav001/pdf-generator.gitgit push -u origin main
